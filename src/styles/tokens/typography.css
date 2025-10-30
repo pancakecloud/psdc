@@ -1,0 +1,14 @@
+/* Token: typography.css */
+:root {
+  --font-primary: 'Akshar', 'Santoshi', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial;
+
+  --type-xs: 12px;
+  --type-sm: 14px;
+  --type-base: 16px;
+  --type-lg: 18px;
+  --type-xl: 20px;
+
+  --line-height-tight: 1.1;
+  --line-height-normal: 1.4;
+  --line-height-loose: 1.6;
+}

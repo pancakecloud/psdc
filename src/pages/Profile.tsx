@@ -4,7 +4,8 @@ import { useAuth } from '../context/AuthContext';
 import { db } from '../firebase/client';
 import { doc, getDoc } from 'firebase/firestore';
 import { toPng } from 'html-to-image';
-import { listFavorites, listMyPins, PinDoc } from '../services/pins';
+import { listFavorites, listMyPins } from '../services/pins';
+import type { PinDoc } from '../services/pins';
 import { motion, AnimatePresence } from 'motion/react';
 
 type UserProfile = {

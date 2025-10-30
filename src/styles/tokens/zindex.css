@@ -1,0 +1,10 @@
+/* Token: zindex.css */
+:root {
+  --zindex-0: 0;
+  --zindex-10: 10;
+  --zindex-20: 20;
+  --zindex-30: 30;
+  --zindex-40: 40;
+  --zindex-50: 50;
+  --zindex-top: 9999;
+}

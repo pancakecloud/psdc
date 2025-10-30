@@ -1,0 +1,31 @@
+/* Token: colors.css
+   Provides color custom properties used by globals.css and components.
+   Adjust hex values to match your design system if desired.
+*/
+:root {
+  /* Core foreground/background */
+  --color-fg: #0f1724; /* primary foreground */
+  --color-bg: #f7f8fb; /* app background */
+  --color-text: #0f1724; /* body text color */
+
+  /* Surfaces & borders */
+  --color-surface: #ffffff;
+  --color-border: #e6e9ef;
+
+  /* Primary brand */
+  --color-primary: #4f46e5; /* indigo-600 */
+
+  /* Muted / helper */
+  --color-muted: #6b7280;
+
+  /* Feedback colors */
+  --color-error: #b91c1c;
+  --color-error-100: #fee2e2;
+  --color-info: #0ea5e9;
+  --color-info-100: #e0f2fe;
+  --color-warning: #b45309;
+  --color-warning-100: #fff7ed;
+
+  /* Utility / layout */
+  --container-max: 1100px;
+}
