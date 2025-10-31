@@ -14,6 +14,7 @@ export type ChatSummary = {
   otherUserId: string;
   lastText?: string;
   lastTs?: number;
+  updatedAt?: number;
 };
 
 function chatIdFor(u1: string, u2: string) {
