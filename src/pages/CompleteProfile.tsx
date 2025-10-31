@@ -22,6 +22,7 @@ export default function CompleteProfile() {
     ""
   );
   const [doorKnobFile, setDoorKnobFile] = useState<File | null>(null);
+
   const [doorKnobUrl, setDoorKnobUrl] = useState<string | null>(null);
   const [clothes, setClothes] = useState<
     Array<{ file: File; kind: "top" | "bottom" }>
